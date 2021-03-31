@@ -1,0 +1,217 @@
+@media only screen and (max-width: 800px) {
+    /* Body etc. setup */
+    /* html, body {
+        width: auto;
+        height: auto;
+    } */
+    html {
+        margin: auto;
+    }
+    body {
+        min-height: 100%;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.0rem;
+    }
+    #bg-image {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-color: white;
+        /* background-image: url("./media/bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        width: 100vw;
+        height: 100vh;
+        /* filter: blur(10px) brightness(120%); */
+        transform: scale(1.04);
+    }   
+    /* Grid setup */
+    #content {
+        display: flex;
+        flex-flow: column;
+        padding-top: 2.5vh;
+        height: 100%;
+        margin: 0 auto;
+        color: #fff;
+        /* font-family: 'Roboto', sans-serif;
+        font-weight: 300; */
+        position: relative;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+
+    .main-body {
+        /* background: yellow; */
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%; 
+    }
+    .left-bar {
+        /* background: green; */
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 95vh;
+    }
+    /* Main content */
+
+    /* Custom scroll bar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.2); 
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.2); 
+    }
+    
+
+    #main-body {
+        max-height: 100vh;
+        overflow:auto;
+    }
+
+    #main-body h1 {
+        font-size: 2rem;
+        letter-spacing: 0.7vw;
+        margin: 40px;
+    }
+
+    #main-body #possible-evidence {
+        width: 95%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px 10px 0 0;
+    }
+
+    #main-body #possible-evidence h2 {
+        margin-left: 12px;
+    }
+
+    #main-body .table-wrapper {
+        width: 95%;
+        max-height: 80%;
+        padding: 10px 0;
+        overflow-y: scroll;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        transform: translateY(-15px);
+    }
+
+    #main-body table {
+        width:  95%;
+        max-height: 95%;
+        margin: 0;
+        border: 0;
+        color: #fff;
+    }
+
+    #main-body table tr:nth-child(even) {
+        background: rgba(255, 255, 255, 0.57);
+    }
+
+    #main-body table th {
+        font-weight: bold;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        color: #000;
+    }
+
+    #main-body table td {
+        font-weight: 400;
+        padding: 5px;
+    }
+
+    #main-body table .table-evidence {
+        margin: 5px, 0;
+    }
+
+    #main-body table tbody {
+        height: 100%;
+        overflow: scroll;
+        font-size: 0.9rem;
+    }
+
+    #main-body table .table-evidence-gray {
+        color:rgba(255, 255, 255, 0.2);
+    }
+
+    #main-body table .table-evidence-green {
+        color:seagreen;
+    }
+
+    #main-body .possible-evidence-icon {
+        margin-left: 10px;
+    }
+
+    /* Left-bar setup */
+    .left-bar-title-wrapper {
+        /* background: tomato; */
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .evidence-wrapper {
+        /* background: blue; */
+        display: flex;
+        padding: 5px;
+        height: 10%;
+        background-color: rgba(255, 255, 255, 0.57);
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .evidence-name {
+        font-size: 2.8vw;
+        margin: auto;
+        flex-shrink: 1;
+        white-space: nowrap;
+    }
+
+    button {
+        display: inline-block;
+        height: 50%;
+        text-align: center;
+        vertical-align: middle;
+        margin: auto;    
+        background-color: transparent;
+        border: 0;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}

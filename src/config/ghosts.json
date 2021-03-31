@@ -1,0 +1,124 @@
+[
+    {
+        "name": "Wraith",
+        "evidence": [
+            "Spirit box",
+            "Freezing temperature",
+            "Fingerprints"
+        ],
+        "strength": "Can't be tracked by footsteps",
+        "weakness": "Toxic reaction to salt"
+    },
+
+    {
+        "name": "Phantom",
+        "evidence": [
+            "EMF level 5",
+            "Freezing temperature",
+            "Ghost orbs"
+        ],
+        "strength": "Sanity drops considerably when looking at a Phantom",
+        "weakness": "Taking a photo of a Phantom will make it temporarily disappear"
+    },
+
+    {
+        "name": "Poltergeist",
+        "evidence": [
+            "Spirit box",
+            "Fingerprints",
+            "Ghost orbs"
+        ],
+        "strength": "Throws a huge amount of objects at once",
+        "weakness": "Ineffective in an empty room"
+    },
+
+    {
+        "name": "Banshee",
+        "evidence": [
+            "Freezing temperature",
+            "EMF level 5",
+            "Fingerprints"
+        ],
+        "strength": "Only targets one person at a time",
+        "weakness": "Fear the Crucifix and are less aggressive near one"
+    },
+
+    {
+        "name": "Jinn",
+        "evidence": [
+            "Spirit box",
+            "EMF level 5",
+            "Ghost orbs"
+        ],
+        "strength": "Travels at a faster speed if victim is far away",
+        "weakness": "Turning off power source will prevent the Jinn from using its ability"
+    },
+
+    {
+        "name": "Mare",
+        "evidence": [
+            "Spirit box",
+            "Freezing temperature",
+            "Ghost orbs"
+        ],
+        "strength": "Increased chance to attack in the dark",
+        "weakness": "Turning the lights on lowers its chance to attack"
+    },
+
+    {
+        "name": "Revenant",
+        "evidence": [
+            "EMF level 5",
+            "Ghost writing",
+            "Fingerprints"
+        ],
+        "strength": "Travels faster when hunting a victim",
+        "weakness": "Hiding from a Revenant causes it to move very slowly"
+    },
+
+    {
+        "name": "Shade",
+        "evidence": [
+            "EMF level 5",
+            "Ghost writing",
+            "Ghost orbs"
+        ],
+        "strength": "Shy, making it difficult to locate",
+        "weakness": "Will not enter hunting mode with multiple people nearby"
+    },
+
+    {
+        "name": "Demon",
+        "evidence": [
+            "Freezing temperature",
+            "Ghost writing",
+            "Spirit box"
+        ],
+        "strength": "Attack more often than any other ghost",
+        "weakness": "Asking as Demon successful Ouija board questions won't lower your sanity"
+    },
+
+    {
+        "name": "Yurei",
+        "evidence": [
+            "Freezing temperature",
+            "Ghost writing",
+            "Ghost orbs"
+        ],
+        "strength": "Have a stronger effect on your sanity",
+        "weakness": "Using Smudge Sticks on a Yurei's room will prevent it from wandering for a long time"
+    },
+    
+    {
+        "name": "Oni",
+        "evidence": [
+            "EMF level 5",
+            "Ghost writing",
+            "Spirit box"
+        ],
+        "strength": "Can move objects and are more active with people nearby",
+        "weakness": "Is easy to find and identify due to being very active"
+    }
+]
+   
+    
