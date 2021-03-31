@@ -23,7 +23,7 @@ body {
     right: 0;
     z-index: 1;
     display: block;
-    background-color: white;
+    background-color: rgb(25, 25, 25);
     /* background-image: url("./media/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -116,13 +116,15 @@ body {
 
 #main-body .table-wrapper {
     width: 90%;
-    max-height: 80%;
+    max-height: 85%;
+    margin-top: 1vh;
     padding: 0;
+    padding-top: 2vh;
     overflow-y: scroll;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     transform: translateY(-15px);
 }
 
@@ -135,7 +137,7 @@ body {
 }
 
 #main-body table tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.57);
+    background: rgba(255, 255, 255, 0.02);
 }
 
 #main-body table th {
@@ -143,7 +145,7 @@ body {
     text-align: center;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgb(131, 131, 131);
     color: #000;
 }
 
@@ -173,17 +175,24 @@ body {
 }
 
 /* Left-bar setup */
+
+.left-bar h1 {
+    font-size: 3vw;
+}
+
+.left-bar h2 {
+    font-size: 2vw;
+}
+
 .left-bar-title-wrapper {
     /* background: tomato; */
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 .evidence-wrapper {
     /* background: blue; */
     display: flex;
     padding: 5px;
     height: 10%;
-    background-color: rgba(255, 255, 255, 0.57);
     border-radius: 10px;
     width: 90%;
 }
