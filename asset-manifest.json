@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/phasmopicker/static/css/main.fad8ef02.chunk.css",
+    "main.js": "/phasmopicker/static/js/main.292fe611.chunk.js",
+    "main.js.map": "/phasmopicker/static/js/main.292fe611.chunk.js.map",
+    "runtime-main.js": "/phasmopicker/static/js/runtime-main.d6a95bdd.js",
+    "runtime-main.js.map": "/phasmopicker/static/js/runtime-main.d6a95bdd.js.map",
+    "static/js/2.560bac00.chunk.js": "/phasmopicker/static/js/2.560bac00.chunk.js",
+    "static/js/2.560bac00.chunk.js.map": "/phasmopicker/static/js/2.560bac00.chunk.js.map",
+    "index.html": "/phasmopicker/index.html",
+    "static/css/main.fad8ef02.chunk.css.map": "/phasmopicker/static/css/main.fad8ef02.chunk.css.map",
+    "static/js/2.560bac00.chunk.js.LICENSE.txt": "/phasmopicker/static/js/2.560bac00.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/phasmopicker/static/media/Lato-Regular.9919edff.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6a95bdd.js",
+    "static/js/2.560bac00.chunk.js",
+    "static/css/main.fad8ef02.chunk.css",
+    "static/js/main.292fe611.chunk.js"
+  ]
+}
